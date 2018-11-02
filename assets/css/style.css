@@ -1,0 +1,49 @@
+body{
+    background-color:#4aaaa5;
+    color:#777777;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/pipes.png");
+    padding: 20px;
+    margin: 20px;
+
+
+}
+
+header{
+    background-color:#ffffff;
+    border: 5px #cccccc solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    height: 75px;
+}
+
+.main-bio{
+    background-color:#ffffff;
+    border: 5px #dddddd solid;
+
+}
+
+footer{
+    background-color:#666666;
+
+}
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+    .h1{float: left;
+        width: 200px;
+        font-size: 25px;
+        position: inherit;
+        border: 5px;
+        
+    
+
+
+}
