@@ -1,6 +1,6 @@
 body{
     background-color:#4aaaa5;
-    color:#777777;
+    color:#cccccc;
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/pipes.png");
@@ -11,12 +11,18 @@ body{
 }
 
 header{
-    background-color:#ffffff;
+    background-color:#4aaaa5;
     border: 5px #cccccc solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     height: 75px;
+    color: #ffffff;
 }
+#name {float: left;
+color: #ffffff;
+}
+
+
 
 .main-bio{
     background-color:#ffffff;
@@ -26,24 +32,36 @@ header{
 
 footer{
     background-color:#666666;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 .wrapper{
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px;
-    float: left;
+    position: absolute;
+    left: auto;
+    /* height: 200px; */
+    /* margin-top: -100px; */
+    width: 90%;
+    /* margin-left: -200px  */
 }
 
-    .h1{float: left;
-        width: 200px;
-        font-size: 25px;
-        position: inherit;
-        border: 5px;
-        
+h1{float: left;
+    width: 30%;
+    font-size: 25px;
+    /* position: inherit; */
+    border: 5px;
+
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: 20px;
+    margin-right: 5px;
+
+
     
-
-
 }
